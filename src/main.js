@@ -17,9 +17,7 @@ function createProductCard(product) {
     img.src = product.imageUrl;
     img.alt = product.name;
     img.addEventListener('error', () => {
-    img.src = product.imageUrl.replace('./images/', './public/images/');},
-    {once: true},
-    );
+    img.src = product.imageUrl.replace('./images/', './public/images/');}, {once: true});
     const body = document.createElement('div');
     body.className = 'card-body';
     const category = document.createElement('span');
@@ -27,15 +25,12 @@ function createProductCard(product) {
     category.textContent = product.category;
     const title = document.createElement('h3');
     title.textContent = product.name;
-
     const price = document.createElement('p');
     price.className = 'price';
     price.textContent = `$${product.price.toFixed(2)}`;
-
     const description = document.createElement('p');
     description.className = 'description';
     description.textContent = product.description;
-
     body.append(category, title, price, description);
     card.append(img, body);
     return card;
@@ -68,10 +63,9 @@ async function init() {
     renderPage();
   } catch (error) {
     console.error('Could not load products:', error);
-    grid.textContent = 'Sorry, products could not be loaded.';
+    grid.textContent = 'Products could not be loaded';
     prevBtn.disabled = true;
     nextBtn.disabled = true;
   }
 }
-
 init();
