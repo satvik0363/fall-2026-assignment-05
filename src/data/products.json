@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "Claw Hammer",
+    "price": 1.99,
+    "category": "Hand Tools",
+    "description": "16 oz steel claw hammer with a shock-absorbing grip. Great for framing and everyday repairs.",
+    "imageUrl": "./images/product1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Screwdriver Set",
+    "price": 19.99,
+    "category": "Hand Tools",
+    "description": "10-piece set of Phillips and flathead screwdrivers with magnetic tips.",
+    "imageUrl": "./images/product2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Tape Measure",
+    "price": 36.49,
+    "category": "Hand Tools",
+    "description": "25-foot locking tape measure with a durable, easy-read blade.",
+    "imageUrl": "./images/product3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Adjustable Wrench",
+    "price": 120.99,
+    "category": "Hand Tools",
+    "description": "10-inch chrome-plated adjustable wrench that fits a wide range of nuts and bolts.",
+    "imageUrl": "./images/product4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Hand Saw",
+    "price": 45.99,
+    "category": "Hand Tools",
+    "description": "20-inch hardened-tooth saw for clean, fast cuts in wood and plastic.",
+    "imageUrl": "./images/product5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Cordless Drill",
+    "price": 222.99,
+    "category": "Power Tools",
+    "description": "18V cordless drill with two speeds, a keyless chuck, and a rechargeable battery.",
+    "imageUrl": "./images/product6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Circular Saw",
+    "price": 139.99,
+    "category": "Power Tools",
+    "description": "7-1/4 inch corded circular saw with an adjustable depth and bevel.",
+    "imageUrl": "./images/product7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Orbital Sander",
+    "price": 409.99,
+    "category": "Power Tools",
+    "description": "Compact random orbital sander with dust collection for smooth finishes.",
+    "imageUrl": "./images/product8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Jigsaw",
+    "price": 9.99,
+    "category": "Power Tools",
+    "description": "Variable-speed jigsaw for curves and detailed cuts, with tool-free blade changes.",
+    "imageUrl": "./images/product9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Garden Trowel",
+    "price": 88.99,
+    "category": "Garden",
+    "description": "Stainless steel trowel with an ergonomic handle for planting and transplanting.",
+    "imageUrl": "./images/product10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Garden Hose",
+    "price": 1.99,
+    "category": "Garden",
+    "description": "50-foot kink-resistant hose with brass fittings.",
+    "imageUrl": "./images/product11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Pruning Shears",
+    "price": 27.99,
+    "category": "Garden",
+    "description": "Sharp bypass pruners for clean cuts on stems and small branches.",
+    "imageUrl": "./images/product12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Watering Can",
+    "price": 58.99,
+    "category": "Garden",
+    "description": "15-gallon galvanized watering can with a removable rose spout.",
+    "imageUrl": "./images/product13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Work Gloves",
+    "price": 21.99,
+    "category": "Garden",
+    "description": "Breathable, reinforced-palm gloves for yard work and light construction.",
+    "imageUrl": "./images/product14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Wheelbarrow",
+    "price": 174.99,
+    "category": "Garden",
+    "description": "19 cubic foot steel-tray wheelbarrow with a pneumatic tire.",
+    "imageUrl": "./images/product15.jpg"
+  }
+]

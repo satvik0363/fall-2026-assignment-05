@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hardware Store | Store</title>
+  <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<script type="module" src="./src/main.js"></script>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="./index.html" class="brand">Hardware Store</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="./index.html" >Home</a></li>
+          <li><a href="./about.html" >About</a></li>
+          <li><a href="./store.html" class="active">Store</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <main class="container page-content">
+    <h1>Our Products</h1>
+    <section id="product-grid" class="product-grid"></section>
+    <nav id="pagination" class="pagination" aria-label="Product pages">
+      <button id="prev-btn" class="page-btn" type="button" disabled>&laquo; Previous</button>
+      <span id="page-info" class="page-info">Page 1 of 3</span>
+      <button id="next-btn" class="page-btn" type="button">Next &raquo;</button>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; Hardware Store. All rights reserved.</p>
+      <p>Mon&ndash;Sat: 11am&ndash;6pm &nbsp;|&nbsp; Sun: 12pm&ndash;5pm</p>
+    </div>
+  </footer>
+</body>
+</html>
